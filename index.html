@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Events Help </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="desciption" content="Events organizing help including advertising and reserving a space">
+	<meta charset="utf-8"/>
+</head >
+
+<body>
+<header class="headerone">
+	<ul>
+		<li > <a href=""> <img class ="img-box" alt="eventlogo" src="images/Events.jpg"></a></li>
+		<li class="box1"><a href="Profile.html" class="MenuItem">&#8226; Profile</a></li>
+		<li class="box1"><a href="ViewEvents.html" class="MenuItem">&#8226; View events</a>  </li>
+		<li class="box1"><a href="RegisterEvents.html" class="MenuItem">&#8226; Register event </a> </li>
+		<li class="box1"><a href="" class="MenuItem">&#8226; Manage Created Event</a>  </li>
+		<li class="box1"><a href="" class="MenuItem">&#8226; Attended events</a></li>
+		<div class="box2">
+			<img src="images/UserIcon.png" width="60" height="60" alt="user icon">
+			<p><a href="loginorsignup.html" class="log">Sign in</a> / <a href="loginorsignup.html" class="log">Sign up</a></p>
+		</div>
+		
+	</ul>
+</header>
+
+<table class="table1">
+<tr>
+	
+	<th >scheduled events</th>
+</tr>
+<tr>
+	
+	<td><input type="button" name="scheduled events" value="view schedule events"></td>
+</tr>
+</table>
+
+
+
+<hr style="width: 100%">
+
+<footer> <!-- i added the valdiation picture  in the footer   -->
+	<button onclick="adminpage();"> Admin's view</button>
+	<button onclick="staffpage();"> Staff's view</button>
+	<p>Group ID: </p>
+	<br>
+	<p>ID:201631580</p>
+	<p>ID:201673960</p>
+	<p>ID:201658460</p>
+	<br>
+	
+</footer>
+
+<script>
+	function adminpage(){
+		window.location.href =("AdminUser.html")
+	}
+	function staffpage(){
+		window.location.href =("StaffUser.html")
+	}
+</script>
+
+
+</body>
+</html>,
